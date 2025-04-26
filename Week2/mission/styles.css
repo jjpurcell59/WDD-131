@@ -1,0 +1,40 @@
+html {
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+h1, h2 {
+    text-align: center;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    line-height: 1.5;
+}
+
+p {
+    text-align: left;
+}
+
+body {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+h2 {
+    color: #006EB6;
+    font-size: 17px;
+}
+ol li {
+    margin-bottom: 15px; 
+    text-align: left;
+}
+p  {
+    text-align: left;
+    margin-bottom: 15px;
+}
+
+footer img {
+    width: 150px;
+    display: block;
+    margin: 20px auto 0;
+}
