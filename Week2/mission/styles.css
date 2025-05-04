@@ -3,6 +3,12 @@ html {
     font-family: 'Times New Roman', Times, serif;
 }
 
+body {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
 h1, h2 {
     text-align: center;
     letter-spacing: 2px;
@@ -10,26 +16,17 @@ h1, h2 {
     line-height: 1.5;
 }
 
-p {
-    text-align: left;
-}
-
-body {
-    max-width: 600px;
-    margin: 0 auto;
-    padding: 20px;
-}
-
 h2 {
     color: #006EB6;
     font-size: 17px;
 }
-ol li {
-    margin-bottom: 15px; 
+
+p {
     text-align: left;
+    margin-bottom: 15px;
 }
-p  {
-    text-align: left;
+
+ol li {
     margin-bottom: 15px;
 }
 
@@ -38,10 +35,12 @@ footer img {
     display: block;
     margin: 20px auto 0;
 }
+
 body.dark {
     background-color: #333;
     color: white;
 }
+
 body.dark h2 {
-    color: #a3c4f3;
+    color: #A3C4F3; 
 }
