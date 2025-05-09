@@ -14,32 +14,144 @@ body {
     font-family: var(--primary-font);
     font-size: 1.2em;
     background-color: var(--text-light); 
-    color: var(--text-dark); 
+    color: var(--text-dark);
+    margin: 0;
 }
 
-a:link,
-a:visited {
-    color: var(--accent-color); 
+
+header {
+    background-color: var(--primary-color);
+    padding: 20px;
+    text-align: center;
+}
+header h1 {
+    color: white; 
+    font-family: var(--secondary-font);
+    text-align: center;
+}
+
+h2 {
+    text-align: center;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around; /* Evenly spreads out the links */
+    align-items: center;
+    background-color: var(--primary-color);
+    padding: 10px;
+    width: 100%;
+}
+
+nav ul {
+    display: flex;
+    gap: 20px;
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline-block;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.2em;
+}
+
+@media screen and (max-width: 700px) {
+    nav ul {
+        display: none;
+        flex-direction: column;
+        position: absolute;
+        top: 60px;
+        left: 0;
+        width: 100%;
+        background-color: var(--primary-color);
+        padding: 10px;
+    }
+
+    nav ul.active {
+        display: flex;
+    }
+}
+
+
+nav a {
+    color: white; 
+    font-size: 1.1em;
+    text-decoration: none;
+}
+
+nav a:hover {
+    text-decoration: underline;
 }
 
 .gallery {
     display: grid;
     grid-template-columns: 1fr; 
-    gap: 20px; 
+    gap: 20px;
+    
 }
+
+.gallery img {
+    border: 3px solid white;
+    border-radius: 5px; 
+}
+
+
+footer {
+    background-color: var(--primary-color);
+    color: white;
+    text-align: center;
+    padding: 15px;
+    position: relative;
+    width: 100%;
+}
+
+
 
 @media screen and (min-width: 700px) {
     .gallery {
-        grid-template-columns: 1fr 1fr; 
+        grid-template-columns: repeat(2, 1fr);
     }
 }
 
 @media screen and (min-width: 1000px) {
     .gallery {
-        grid-template-columns: 1fr 1fr 1fr; 
+        grid-template-columns: repeat(3, 1fr);
     }
 }
 
-nav {
-    display: flex;
+#menu-btn {
+    display: none; 
+    background-color: var(--accent-color);
+    color: white;
+    font-size: 1.2em;
+    padding: 10px 15px;
+    border: none;
+    cursor: pointer;
 }
+
+@media screen and (max-width: 700px) {
+    #menu-btn {
+        display: block; 
+    }
+
+    nav ul {
+        display: none; 
+        flex-direction: column;
+        background-color: var(--primary-color);
+        padding: 10px;
+        position: absolute;
+        top: 60px;
+        left: 0;
+        width: 100%;
+    }
+
+    nav ul.active {
+        display: flex; 
+    }
+}
+
