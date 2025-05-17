@@ -1,7 +1,6 @@
 document.addEventListener("DOMContentLoaded", function () {
     console.log("Cool Pics loaded!");
 
-    
     const menuBtn = document.getElementById("menu-btn");
     const navMenu = document.querySelector("nav ul");
 
@@ -9,7 +8,6 @@ document.addEventListener("DOMContentLoaded", function () {
         navMenu.classList.toggle("hide");
     });
 
- 
     function handleResize() {
         if (window.innerWidth > 1000) {
             navMenu.classList.remove("hide");
@@ -19,9 +17,8 @@ document.addEventListener("DOMContentLoaded", function () {
     }
 
     window.addEventListener("resize", handleResize);
-    handleResize(); 
+    handleResize();
 
-    
     const gallery = document.querySelector(".gallery");
     let modal;
 
@@ -29,7 +26,7 @@ document.addEventListener("DOMContentLoaded", function () {
         const clickedImage = event.target.closest("img");
         if (!clickedImage) return;
 
-        const src = clickedImage.src.split("-")[0] + "-full.jpeg";
+        const src = clickedImage.src.replace("-sm.jpeg", "-full.jpeg");
         const alt = clickedImage.alt;
 
         modal = document.createElement("dialog");
@@ -41,14 +38,12 @@ document.addEventListener("DOMContentLoaded", function () {
 
         modal.showModal();
 
-        
         const closeButton = modal.querySelector(".close-viewer");
         closeButton.addEventListener("click", () => {
             modal.close();
-            modal.remove(); 
+            modal.remove();
         });
 
-        
         modal.addEventListener("click", (event) => {
             if (event.target === modal) {
                 modal.close();
