@@ -1,6 +1,4 @@
 document.addEventListener("DOMContentLoaded", function () {
-    console.log("Cool Pics loaded!");
-
     const menuBtn = document.getElementById("menu-btn");
     const navMenu = document.querySelector("nav ul");
 
@@ -20,7 +18,6 @@ document.addEventListener("DOMContentLoaded", function () {
     handleResize();
 
     const gallery = document.querySelector(".gallery");
-    let modal;
 
     gallery.addEventListener("click", (event) => {
         const clickedImage = event.target.closest("img");
@@ -29,7 +26,7 @@ document.addEventListener("DOMContentLoaded", function () {
         const src = clickedImage.src.replace("-sm.jpeg", "-full.jpeg");
         const alt = clickedImage.alt;
 
-        modal = document.createElement("dialog");
+        const modal = document.createElement("dialog");
         modal.innerHTML = `
             <img src="${src}" alt="${alt}">
             <button class="close-viewer">X</button>
