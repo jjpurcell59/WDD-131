@@ -36,7 +36,7 @@ h2 {
 
 nav {
     display: flex;
-    justify-content: space-around; /* Evenly spreads out the links */
+    justify-content: space-around; 
     align-items: center;
     background-color: var(--primary-color);
     padding: 10px;
@@ -153,5 +153,9 @@ footer {
     nav ul.active {
         display: flex; 
     }
+}
+
+.hide {
+    display: none; 
 }
 

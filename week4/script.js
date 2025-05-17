@@ -1,0 +1,10 @@
+import { PI } from './constants.js';
+import radius from './radius.js';
+import { area as area2 } from './area.js';
+let area = 0;
+let radius = 3;
+area = radius * radius * PI;
+radius = 4;
+radius = 5;
+area = radius * radius * PI;
+console.log("Area3:", area);
