@@ -99,51 +99,55 @@ article {
     margin-bottom: 10px;
 }
 
+.content {
+    text-align: center; 
+}
+
 .content h2 {
     font-family: 'Lora', serif;
     font-size: 1.5rem;
     color: #473144;
-    margin-bottom: 10px;
+    margin-top: 0;
+}
+
+.content img {
+    display: block;
+    margin: 0 auto; 
+    max-width: 150px;
+    height: auto;
+    border-radius: 5px; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
 }
 
 .content p {
     font-size: 1rem;
-    color: #555;
-}
-
-.book-cover {
-    max-width: 150px;
-    height: auto;
-    margin: 10px 0;
-    border-radius: 5px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    justify-self: center;
+    color: #555; 
 }
 
 .hidden-text {
-    display: none;
+    display: none; 
 }
 
 .read-more-btn {
-    background-color: #AF1B3F;
-    color: white;
-    border: none;
-    padding: 10px 15px;
-    border-radius: 5px;
-    cursor: pointer;
-    font-size: 1rem;
-    margin-top: 10px;
+    background-color: #AF1B3F; 
+    color: white; 
+    border: none; 
+    padding: 10px 15px; 
+    border-radius: 5px; 
+    cursor: pointer; 
+    font-size: 1rem; 
+    margin-top: 10px; 
+    transition: background-color 0.3s ease, color 0.3s ease; 
 }
 
 .read-more-btn:hover {
-    background-color: #EFC69B;
-    color: #473144;
-
+    background-color: #EFC69B; 
+    color: #473144; 
 }
 
 .read-more-btn:focus {
-    outline: 2px solid #AF1B3F;
-    outline-offset: 2px;
+    outline: 2px solid #AF1B3F; 
+    outline-offset: 2px; 
 }
 
 footer {
