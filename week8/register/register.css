@@ -1,0 +1,113 @@
+/* General Reset */
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Roboto, Arial, sans-serif;
+    font-size: 16px;
+    color: #666;
+    line-height: 22px;
+}
+
+div,
+form,
+input,
+select,
+textarea,
+label,
+p {
+    padding: 0;
+    margin: 0;
+    outline: none;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.testbox {
+    padding: 20px;
+    max-width: 960px;
+    margin: 0 auto;
+}
+
+form {
+    padding: 20px;
+    border-radius: 6px;
+    background: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Fieldset Styling */
+fieldset {
+    border: none;
+    margin-bottom: 20px;
+}
+
+/* Participant Section Styling */
+#participants {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* Two columns for participants */
+    gap: 20px; /* Space between items */
+}
+
+.participant1,
+.participant2 {
+    border: 1px solid #ccc;
+    padding: 15px;
+    border-radius: 6px;
+    background-color: #f9f9f9;
+}
+
+/* Add Participant Button */
+#add-participant {
+    grid-column: span 2; /* Button spans both columns */
+    justify-self: center; /* Center the button */
+    padding: 10px 20px;
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+#add-participant:hover {
+    background-color: #0056b3;
+}
+
+/* Submit Button */
+button[type="submit"] {
+    padding: 10px 20px;
+    background-color: #28a745;
+    color: #fff;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button[type="submit"]:hover {
+    background-color: #218838;
+}
+
+/* Input Fields */
+input[type="text"],
+input[type="number"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    font-size: 16px;
+}
+
+/* Summary Section */
+#summary {
+    padding: 20px;
+    border-radius: 6px;
+    background-color: #f8f9fa;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    font-size: 18px;
+    color: #333;
+}

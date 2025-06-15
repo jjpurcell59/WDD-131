@@ -1,0 +1,1 @@
+import { participantTemplate, successTemplate } from './Templates.js';

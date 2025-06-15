@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="author" content="Jamison Purcell">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Camp Registration</title>
+    <meta name="description" content="Camp Registration Form for youth participants. Add participants and calculate fees dynamically.">
+    <link rel="icon" href="favicon copy.png" type="image/png">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700" rel="stylesheet">
+    <link rel="stylesheet" href="register.css">
+    <style>
+        .rdp {
+            --rdp-cell-size: 40px;
+            --rdp-accent-color: #0000ff;
+            --rdp-background-color: #e7edff;
+            --rdp-accent-color-dark: #3003e1;
+            --rdp-background-color-dark: #180270;
+            --rdp-outline: 2px solid var(--rdp-accent-color);
+            --rdp-outline-selected: 2px solid rgba(0, 0, 0, 0.75);
+            margin: 1em;
+        }
+
+        .rdp-vhidden {
+            box-sizing: border-box;
+            padding: 0;
+            margin: 0;
+            background: transparent;
+            border: 0;
+            -moz-appearance: none;
+            -webkit-appearance: none;
+            appearance: none;
+            position: absolute !important;
+            top: 0;
+            width: 1px !important;
+            height: 1px !important;
+        }
+    </style>
+    <script src="register.js" defer></script>
+    <script src="template.js" defer></script>
+</head>
+<body>
+    <form id="registration-form">
+        <fieldset id="participants">
+            <section class="participant1">
+                <h3>Participant 1</h3>
+                <label for="name1">Name:</label>
+                <input type="text" id="name1" name="name1">
+                <label for="age1">Age:</label>
+                <input type="number" id="age1" name="age1">
+                <label for="fee1">Fee:</label>
+                <input type="number" id="fee1" name="fee1">
+            </section>
+            <button type="button" id="add-participant">Add Participant</button>
+        </fieldset>
+        <label for="adult-name">Adult Name:</label>
+        <input type="text" id="adult-name" name="adult-name">
+        <button type="submit">Submit</button>
+    </form>
+    <div id="summary" style="display: none;"></div>
+</body>
+</html>
