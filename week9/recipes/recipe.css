@@ -145,7 +145,7 @@ img {
 }
 
 .site-footer {
-  display: flex;
+  display: fixed;
   justify-content: space-between;
   align-items: flex-end;
   padding: 1rem;
