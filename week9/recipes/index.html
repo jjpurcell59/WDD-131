@@ -9,13 +9,11 @@
   <meta property="og:type" content="website">
   <meta property="og:description" content="Discover delicious recipes for every occasion. Search, explore, and enjoy cooking with Recipe Book.">
   <meta property="og:image" content="images/recipe-book.png">
-  <meta property="og:url" content="https://jjpurcell59.github.io/WDD-131/week9/recipes/index.html>
+  <meta property="og:url" content="https://jjpurcell59.github.io/WDD-131/week9/recipes/index.html">
   <meta name="twitter:card" content="summary_large_image">
   <title>Recipe Book</title>
   <link rel="icon" href="images/recipe-book.png" type="image/png">
   <link rel="stylesheet" href="recipe.css">
-  <script src="recipes.mjs" type="module"></script>
-  <script src="main.js" defer></script>
 </head>
 <body>
   <header class="site-header">
@@ -26,40 +24,22 @@
   </header>
   <main>
     <form class="search-form" action="#" method="get">
-
       <input type="search" id="search-input" name="query" placeholder="Find a Recipe" aria-label="Search for recipes" required>
       <button type="submit">🔍</button>
     </form>
-    <section class="recipes">
-      <article class="recipe">
-        <div class="recipe-content">
-          <h2>Apple Crisp</h2>
-          <p class="description">This apple crisp recipe is a simple yet delicious fall dessert that's great served warm with vanilla ice cream.</p>
-          <div class="meta">
-            <span class="rating" role="img" aria-label="Rating: 4 out of 5 stars">
-              <span aria-hidden="true" class="icon-star">⭐</span>
-              <span aria-hidden="true" class="icon-star">⭐</span>
-              <span aria-hidden="true" class="icon-star">⭐</span>
-              <span aria-hidden="true" class="icon-star">⭐</span>
-              <span aria-hidden="true" class="icon-star-empty">☆</span>
-            </span>
-            <span class="prep-time">Prep: 15 mins</span>
-            <span class="cook-time">Cook: 45 mins</span>
-          </div>
-          <button>Dessert</button>
-        </div>
-        <img src="images/apple-crisp.jpg" alt="bowl of apple crisp">
-      </article>
-    </section>
+    <section class="recipes"></section>
   </main>
   <footer class="site-footer">
     <div class="social">
-        <!-- Social media icons provided under CC from https://www.iconfinder.com/AlfredoCreates  -->
-        <a href="#"><img src="images/instagram_icon.svg" alt="instagram icon"></a>
-        <a href="#"><img src="images/youtube_icon.svg" alt="youtube icon"></a>
-        <a href="#"><img src="images/pinterest_icon.svg" alt="pinterest icon"></a>
+      <!-- Social media icons provided under CC from https://www.iconfinder.com/AlfredoCreates  -->
+      <a href="#"><img src="images/instagram_icon.svg" alt="instagram icon"></a>
+      <a href="#"><img src="images/youtube_icon.svg" alt="youtube icon"></a>
+      <a href="#"><img src="images/pinterest_icon.svg" alt="pinterest icon"></a>
     </div>
-    <p> Recipe icons created by Freepik - Flaticon </p>
+    <p style="font-size:0.6em;">
+      <a href="https://www.flaticon.com/free-icons/recipe" title="recipe icons">Recipe icons created by Freepik - Flaticon</a>
+    </p>
   </footer>
+  <script src="main.js" type="module"></script>
 </body>
 </html>

@@ -153,11 +153,10 @@ img {
 }
 
 .social {
-  position: fixed;
-  bottom: 1rem;
-  right: 1rem;
   display: flex;
   gap: 0.5rem;
+  align-items: center;
+  justify-content: flex-end;
 }
 
 .social img {
