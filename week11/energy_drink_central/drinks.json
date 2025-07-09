@@ -1,0 +1,47 @@
+[
+    {
+      "name": "Red Bull",
+      "brand": "Red Bull",
+      "rating": 4.3,
+      "description": "The iconic energy drink known for its smooth taste and moderate caffeine hit. Still going strong since the 80s.",
+      "releaseYear": 1987,
+      "discontinuedYear": null,
+      "image": "https://i.imgur.com/QzWn8bD.png"
+    },
+    {
+      "name": "Monster Energy",
+      "brand": "Monster",
+      "rating": 4.1,
+      "description": "A bold drink with a punchy flavor and iconic green claw branding. Huge variety of flavors available.",
+      "releaseYear": 2002,
+      "discontinuedYear": null,
+      "image": "https://i.imgur.com/B8UGD1B.png"
+    },
+    {
+      "name": "Vault",
+      "brand": "Coca-Cola",
+      "rating": 3.2,
+      "description": "A citrus soda-energy hybrid discontinued in 2011. Cult classic with a niche fan base.",
+      "releaseYear": 2005,
+      "discontinuedYear": 2011,
+      "image": "https://i.imgur.com/KRopNNu.png"
+    },
+    {
+      "name": "Rockstar Original",
+      "brand": "Rockstar",
+      "rating": 3.9,
+      "description": "Designed for active lifestyles. Has evolved through rebrands but still loved by many.",
+      "releaseYear": 2001,
+      "discontinuedYear": null,
+      "image": "https://i.imgur.com/tbLhC7A.png"
+    },
+    {
+      "name": "Bang Star Blast",
+      "brand": "Bang",
+      "rating": 4.0,
+      "description": "Sugar-free and packed with super creatine. Popular among gym-goers and caffeine lovers.",
+      "releaseYear": 2017,
+      "discontinuedYear": null,
+      "image": "https://i.imgur.com/2dydRpu.png"
+    }
+  ]
