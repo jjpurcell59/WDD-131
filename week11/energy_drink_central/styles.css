@@ -1,4 +1,3 @@
-/* Font Rendering Optimization */
 html {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -12,7 +11,6 @@ body {
   background-color: #f9f9f9;
 }
 
-/* Header and Nav */
 header {
   display: flex;
   align-items: center;
@@ -62,7 +60,6 @@ header {
   outline-offset: 2px;
 }
 
-/* Dropdown (if used in future) */
 .dropdown-content {
   display: none;
   position: absolute;
@@ -90,7 +87,6 @@ header {
   background-color: #ddd;
 }
 
-/* News Carousel */
 .news-carousel {
   position: relative;
   overflow: hidden;
@@ -168,7 +164,6 @@ header {
   right: 0;
 }
 
-/* Slideshow */
 .slideshow-container {
   text-align: center;
   padding: 2rem;
@@ -184,7 +179,6 @@ header {
   loading: lazy;
 }
 
-/* Footer */
 footer {
   background-color: #396e94;
   color: white;
@@ -193,7 +187,6 @@ footer {
   border-top: 2px solid #2d5170;
 }
 
-/* Image Popup */
 .popup {
   display: none;
   position: fixed;
@@ -223,7 +216,6 @@ footer {
   cursor: pointer;
 }
 
-/* Mobile Support */
 @media screen and (max-width: 768px) {
   header {
     flex-direction: column;
