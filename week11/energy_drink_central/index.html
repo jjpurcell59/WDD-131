@@ -11,7 +11,7 @@
   <header>
     <a href="index.html">
         <img src="energydrinklogo.png" alt="Energy Drink Central Logo" class="logo" />
-      </a>
+    </a>
     <nav>
         <ul class="navbar">
             <li><a href="brands/monster.html">Monster</a></li>
@@ -20,11 +20,12 @@
             <li><a href="brands/alani.html">Alani</a></li>
             <li><a href="brands/celsius.html">Celsius</a></li>
             <li><a href="brands/c4.html">C4</a></li>
-          </ul>
+        </ul>
     </nav>
   </header>
 
   <main>
+    <!-- News Carousel -->
     <section class="news-carousel">
       <h2>⚡ Latest Energy Drink News</h2>
       <div class="carousel" id="newsCarousel"></div>
@@ -32,6 +33,7 @@
       <button class="carousel-nav next">›</button>
     </section>
 
+    <!-- Slideshow Section -->
     <section class="slideshow-container">
       <h2>🔥 Featured Energy Drinks</h2>
       <div class="slideshow">
@@ -39,6 +41,30 @@
         <img class="slide" src="https://www.stack3d.com/cdn-cgi/image/w=1260,q=50,f=auto/wp-content/uploads/2022/08/monster-beast-unleashed.jpg" alt="Monster Energy" />
         <img class="slide" src="https://www.stack3d.com/cdn-cgi/image/w=1260,q=50,f=auto/wp-content/uploads/2025/05/alani-nu-reaches-one-billion-in-retail-sales.jpg" alt="Alani NU Orange Kiss" />
       </div>
+    </section>
+
+    <!-- Dynamic Drink Cards -->
+    <section class="drink-grid">
+      <!-- JavaScript will populate drink cards here -->
+    </section>
+
+    <!-- Optional Brand Comparison Table -->
+    <section id="brand-comparison">
+      <h2>🧃 Compare Top Energy Drink Brands</h2>
+      <table id="brandTable">
+        <thead>
+          <tr>
+            <th>Brand</th>
+            <th>Origin</th>
+            <th>Caffeine</th>
+            <th>Sugar</th>
+            <th>Website</th>
+          </tr>
+        </thead>
+        <tbody>
+          <!-- JavaScript will populate this table from drinks.json -->
+        </tbody>
+      </table>
     </section>
   </main>
 
