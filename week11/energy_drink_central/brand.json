@@ -1,0 +1,246 @@
+[
+  {
+    "name": "Alani Nu Mimosa",
+    "brand": "Alani",
+    "image": "https://contenthandler-raleys.fieldera.com/prod/445355/1/0/0/30000836-Main.jpg",
+    "rating": 4.6,
+    "year": 2020,
+    "description": "Brunch-inspired mimosa flavor with zero sugar."
+  },
+  {
+    "name": "Alani Nu Watermelon Wave",
+    "brand": "Alani",
+    "image": "https://i5.walmartimages.com/asr/9f6d65f9-d070-408c-b088-6090bb1a9b19.cbd3bebdc6095e48227347b263c19606.jpeg?odnHeight=768&odnWidth=768&odnBg=FFFFFF",
+    "rating": 4.5,
+    "year": 2021,
+    "description": "A wave of fresh watermelon in every bubbly sip."
+  },
+  {
+    "name": "Alani Nu Cosmic Stardust",
+    "brand": "Alani",
+    "image": "https://i5.walmartimages.com/seo/Alani-Nu-Zero-Sugar-Energy-Drink-Cosmic-Stardust-12-oz-Packaging-Varies_c45fe035-95c1-4ed5-8f07-799468db627c.90dfec9704a6f366ac22a112adab31d5.jpeg?odnHeight=640&odnWidth=640&odnBg=FFFFFF",
+    "rating": 4.7,
+    "year": 2019,
+    "description": "Berry candy flavor that’s out of this world."
+  },
+  {
+    "name": "Alani Nu Hawaiian Shaved Ice",
+    "brand": "Alani",
+    "image": "https://storage.googleapis.com/images-cub-prd-9400d55.cub.prd.v8.commerce.mi9cloud.com/product-images/detail/2b0f7863-9c12-40d9-a2a6-30ab2a2cb4f2.jpeg",
+    "rating": 4.6,
+    "year": 2021,
+    "description": "Tropical and fruity energy with a beachy vibe."
+  },
+  {
+    "name": "Alani Nu Cherry Slush",
+    "brand": "Alani",
+    "image": "https://i5.walmartimages.com/seo/Alani-Nu-Sugar-Free-Energy-Drink-Cherry-Slush-12-fl-oz-Can-Single-Can_5199fb07-be33-40b1-b465-df4a93615527.9d102905b548ad35d453e605d8a00cc8.png?odnHeight=640&odnWidth=640&odnBg=FFFFFF",
+    "rating": 4.5,
+    "year": 2022,
+    "description": "Frozen cherry drink vibes in every chilled can."
+  },
+
+  {
+    "name": "Ghost Sour Patch Blue Raspberry",
+    "brand": "Ghost",
+    "image": "https://i5.walmartimages.com/asr/fb171f1e-c447-477a-baaa-69da8225d17f.a7eb26427546169636459855415877eb.jpeg",
+    "rating": 4.7,
+    "year": 2021,
+    "description": "Candy flavor meets energy for a sweet blue raspberry boost."
+  },
+  {
+    "name": "Ghost Warheads Green Apple",
+    "brand": "Ghost",
+    "image": "https://d2lnr5mha7bycj.cloudfront.net/product-image/file/large_6cff1951-723a-4be9-a478-23493a55143c.png",
+    "rating": 4.5,
+    "year": 2021,
+    "description": "Sour green apple blast with 200mg natural caffeine."
+  },
+  {
+    "name": "Ghost Orange Cream",
+    "brand": "Ghost",
+    "image": "https://d3koznjjgilbyx.cloudfront.net/lowesfoods/product_images/0081008581218.jpg",
+    "rating": 4.3,
+    "year": 2022,
+    "description": "Creamsicle-style orange energy drink for a nostalgic lift."
+  },
+  {
+    "name": "Ghost Swedish Fish",
+    "brand": "Ghost",
+    "image": "https://i5.walmartimages.com/seo/GHOST-ENERGY-Zero-Sugars-Energy-Drink-SWEDISH-FISH-16-fl-oz-Can_e41a12e8-9ccd-4d57-81b3-1b0a9fbdcfd0.bf14d7a09c52802230eb8910300fc86a.jpeg",
+    "rating": 4.4,
+    "year": 2022,
+    "description": "Inspired by the chewy candy with a smooth energy kick."
+  },
+  {
+    "name": "Ghost Bubblicious Strawberry",
+    "brand": "Ghost",
+    "image": "https://i5.walmartimages.com/seo/GHOST-Energy-Drink-Zero-Sugar-Bubblicious-Strawberry-Splash-Limited-Edition-Flavor-12-Drinks-16-Fl-Oz-Each_7c13652e-96f1-4208-8d4a-b70bf07ee189.f29e361522482bffb9ccf5c73b8885f1.jpeg?odnHeight=768&odnWidth=768&odnBg=FFFFFF",
+    "rating": 4.6,
+    "year": 2023,
+    "description": "Bubblegum flavor meets high-performance energy formula."
+  },
+
+  {
+    "name": "Red Bull Original",
+    "brand": "Red Bull",
+    "image": "https://i5.walmartimages.com/seo/Red-Bull-Energy-Drink-114mg-Caffeine-12-fl-oz-Can_cc297042-66be-4db1-9ff0-e626f6c43322.d5c5ca669d0978adca72bf0c7504e6ed.jpeg",
+    "rating": 4.3,
+    "year": 1987,
+    "description": "Classic Red Bull energy boost with taurine and caffeine."
+  },
+  {
+    "name": "Red Bull Sugarfree",
+    "brand": "Red Bull",
+    "image": "https://images.albertsons-media.com/is/image/ABS/108100900-C1N1?$ng-ecom-pdp-mobile$&defaultImage=Not_Available",
+    "rating": 4.1,
+    "year": 2003,
+    "description": "Same kick with no sugar and fewer calories."
+  },
+  {
+    "name": "Red Bull Blue Edition",
+    "brand": "Red Bull",
+    "image": "https://mobileimages.lowes.com/productimages/c45c45ac-318f-4b8f-a1c7-9e550ed0e764/69666030.jpeg",
+    "rating": 4.2,
+    "year": 2013,
+    "description": "Blueberry flavored twist on the classic Red Bull energy."
+  },
+  {
+    "name": "Red Bull Peach Edition",
+    "brand": "Red Bull",
+    "image": "https://target.scene7.com/is/image/Target/GUEST_07ce800f-700e-4183-8e6d-a6cf5e7ed7a4",
+    "rating": 4.4,
+    "year": 2019,
+    "description": "Delightful peach-nectarine fusion with energizing power."
+  },
+  {
+    "name": "Red Bull Watermelon Edition",
+    "brand": "Red Bull",
+    "image": "https://i5.walmartimages.com/seo/Red-Bull-Red-Edition-Energy-Drink-Watermelon-114mg-Caffeine-12-fl-oz-Can_c4906673-83e8-4915-9830-77a11df21448.e7b4ef6ada8fc2e4a42d067969b85219.jpeg?odnHeight=768&odnWidth=768&odnBg=FFFFFF",
+    "rating": 4.6,
+    "year": 2020,
+    "description": "Refreshing watermelon flavor with Red Bull's energy formula."
+  },
+
+  {
+    "name": "Monster Ultra Sunrise",
+    "brand": "Monster",
+    "image": "https://i5.walmartimages.com/seo/Monster-Energy-Ultra-Sunrise-Sugar-Free-Energy-Drink-16-fl-oz-Single_0d382cca-c89e-4124-87ef-b9e871f5925c.93ed32987786dbc578d85e99499ef713.png?odnHeight=2000&odnWidth=2000&odnBg=FFFFFF",
+    "rating": 4.5,
+    "year": 2015,
+    "description": "Crisp citrus flavor with zero sugar and 150mg of caffeine."
+  },
+  {
+    "name": "Monster Ultra Fiesta",
+    "brand": "Monster",
+    "image": "https://i5.walmartimages.com/asr/bf771592-9474-42e2-ad72-9022d794929a.45f7ba4cc59a701b3b9f09ccda11e04d.jpeg?odnHeight=768&odnWidth=768&odnBg=FFFFFF",
+    "rating": 4.6,
+    "year": 2018,
+    "description": "Mango flavor energy with a tropical twist and zero sugar."
+  },
+  {
+    "name": "Monster Ultra Violet",
+    "brand": "Monster",
+    "image": "https://i5.peapod.com/c/3Y/3YACI.png",
+    "rating": 4.3,
+    "year": 2016,
+    "description": "Grape citrus energy with a vibrant twist."
+  },
+  {
+    "name": "Monster Ultra Paradise",
+    "brand": "Monster",
+    "image": "https://target.scene7.com/is/image/Target/GUEST_505e38d3-38d4-4491-b74a-706da314cec5?wid=300&hei=300&fmt=pjpeg",
+    "rating": 4.4,
+    "year": 2019,
+    "description": "A tropical blend of kiwi, lime, and cucumber."
+  },
+  {
+    "name": "Monster Ultra Red",
+    "brand": "Monster",
+    "image": "https://images.albertsons-media.com/is/image/ABS/960098575?$ng-ecom-pdp-mobile$&defaultImage=Not_Available",
+    "rating": 4.2,
+    "year": 2014,
+    "description": "Cranberry-flavored zero-sugar boost."
+  },
+
+  {
+    "name": "C4 Orange Slice",
+    "brand": "C4",
+    "image": "https://cdn.discount-drugmart.com/products/images/syndigo/645296e8-a910-43c3-803c-b51d3f1d4a89/600/ecddb29f-1d20-4fcb-b521-e15970c6cc1e.jpg",
+    "rating": 4.4,
+    "year": 2017,
+    "description": "Orange soda-style taste with explosive energy boost."
+  },
+  {
+    "name": "C4 Starburst Strawberry",
+    "brand": "C4",
+    "image": "https://www.instacart.com/assets/domains/product-image/file/large_df26473c-c32d-4947-9418-2398994b3277.png",
+    "rating": 4.6,
+    "year": 2021,
+    "description": "Candy-inspired energy with true strawberry flavor."
+  },
+  {
+    "name": "C4 Midnight Cherry",
+    "brand": "C4",
+    "image": "https://cdnimg.webstaurantstore.com/images/products/large/701772/2555206.jpg",
+    "rating": 4.3,
+    "year": 2020,
+    "description": "Deep cherry taste with smooth caffeine release."
+  },
+  {
+    "name": "C4 Frozen Bombsicle",
+    "brand": "C4",
+    "image": "https://cdnimg.webstaurantstore.com/images/products/large/701837/2555210.jpg",
+    "rating": 4.5,
+    "year": 2022,
+    "description": "Icy cool blend of blue raspberry, cherry, and lime."
+  },
+  {
+    "name": "C4 Pink Starburst",
+    "brand": "C4",
+    "image": "https://cdnimg.webstaurantstore.com/images/products/large/701855/2555250.jpg",
+    "rating": 4.7,
+    "year": 2022,
+    "description": "Fan-favorite pink candy flavor with energy punch."
+  },
+  {
+    "name": "Celsius Orange",
+    "brand": "Celsius",
+    "year": 2004,
+    "rating": 4.3,
+    "image": "https://target.scene7.com/is/image/Target/GUEST_13a4a7f7-2640-4fd9-b869-d60c9f77d5ac",
+    "description": "Classic citrus flavor with zero sugar. Refreshing and energizing."
+  },
+  {
+    "name": "Celsius Sparkling Watermelon",
+    "brand": "Celsius",
+    "year": 2020,
+    "rating": 4.5,
+    "image": "https://target.scene7.com/is/image/Target/GUEST_b0387dbe-049d-4657-ae0c-529f6fcb7f1c",
+    "description": "Juicy watermelon with sparkling finish. Perfect for summer."
+  },
+  {
+    "name": "Celsius Wild Berry",
+    "brand": "Celsius",
+    "year": 2015,
+    "rating": 4.4,
+    "image": "https://target.scene7.com/is/image/Target/GUEST_53a5054c-f55f-452c-8874-ef45fcc91854",
+    "description": "Berry blend with a refreshing, fizzy punch."
+  },
+  {
+    "name": "Celsius Peach Vibe",
+    "brand": "Celsius",
+    "year": 2021,
+    "rating": 4.6,
+    "image": "https://target.scene7.com/is/image/Target/GUEST_2414bbed-8d5b-46c4-a383-e88b5a49da6e",
+    "description": "Sweet peach with vibrant energy in every sip."
+  },
+  {
+    "name": "Celsius Fuji Apple Pear",
+    "brand": "Celsius",
+    "year": 2018,
+    "rating": 4.2,
+    "image": "https://target.scene7.com/is/image/Target/GUEST_56ac12b8-afa8-4351-84e4-b926152e0411",
+    "description": "Crisp apple and pear blend for a unique refreshing taste."
+  }
+]
