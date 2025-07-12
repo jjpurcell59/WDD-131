@@ -1,4 +1,5 @@
 const newsData = [
+// JavaScript for rendering and interactivity of Energy Drink Central
   {
     title: "Monster Ultra Wild Passion launches soon",
     summary: "A passion fruit-based Monster Ultra flavor, Wild Passion, is set to launch later this year—likely around October.",
@@ -68,6 +69,7 @@ function loadDrinksFromJSON() {
             <h3>${drink.name}</h3>
             <p>${drink.description}</p>
             <p>⭐ ${drink.rating} / 5</p>
+            ${drink.rating >= 4.5 ? '<span class="top-rated">Top Rated!</span>' : ''}
           `;
           grid.appendChild(card);
         }
@@ -86,11 +88,11 @@ function loadBrandComparison() {
         if (brand.brand && brand.origin) {
           const row = document.createElement('tr');
           row.innerHTML = `
-            <td style="padding: 12px 8px; text-align: center;">${brand.brand}</td>
-            <td style="padding: 12px 8px; text-align: center;">${brand.origin}</td>
-            <td style="padding: 12px 8px; text-align: center;">${brand.caffeineContent}</td>
-            <td style="padding: 12px 8px; text-align: center;">${brand.sugarContent}</td>
-            <td style="padding: 12px 8px; text-align: center;"><a href="${brand.website}" target="_blank">Visit</a></td>
+            <td class="brand-cell">${brand.brand}</td>
+            <td class="brand-cell">${brand.origin}</td>
+            <td class="brand-cell">${brand.caffeineContent}</td>
+            <td class="brand-cell">${brand.sugarContent}</td>
+            <td class="brand-cell"><a href="${brand.website}" target="_blank">Visit</a></td>
           `;
           tableBody.appendChild(row);
         }

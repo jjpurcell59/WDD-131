@@ -248,3 +248,18 @@ footer {
     padding: 0.25rem 0.5rem;
   }
 }
+
+.top-rated {
+  display: inline-block;
+  margin-top: 0.5rem;
+  padding: 0.25rem 0.5rem;
+  background-color: #e7c24f;
+  color: #000;
+  font-weight: bold;
+  border-radius: 4px;
+}
+
+.brand-cell {
+  padding: 12px 8px;
+  text-align: center;
+}

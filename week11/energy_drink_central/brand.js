@@ -4,8 +4,8 @@ document.addEventListener("DOMContentLoaded", () => {
     const drinkGrid = document.querySelector(".drink-grid");
   
     let drinksData = [];
+    let lastFocusedButton = null;
   
-    // Load drinks from JSON
     fetch("brand.json")
       .then((res) => res.json())
       .then((data) => {
@@ -17,7 +17,6 @@ document.addEventListener("DOMContentLoaded", () => {
         drinkGrid.innerHTML = "<p>Failed to load drinks. Please try again later.</p>";
       });
   
-    // Event listeners for filtering
     brandSelect.addEventListener("change", () => {
       renderDrinks(filterDrinks());
     });
@@ -26,7 +25,6 @@ document.addEventListener("DOMContentLoaded", () => {
       renderDrinks(filterDrinks());
     });
   
-    // Filter function
     function filterDrinks() {
       const selectedBrand = brandSelect.value;
       const selectedYear = yearSelect.value;
@@ -38,7 +36,6 @@ document.addEventListener("DOMContentLoaded", () => {
       });
     }
   
-    // Render function
     function renderDrinks(drinks) {
       drinkGrid.innerHTML = "";
       const loadingMessage = document.querySelector('.loading-message');
@@ -58,14 +55,15 @@ document.addEventListener("DOMContentLoaded", () => {
           <p><strong>Brand:</strong> ${drink.brand}</p>
           <p><strong>Year:</strong> ${drink.year}</p>
           <p><strong>Rating:</strong> ⭐ ${drink.rating} / 5</p>
+          ${drink.rating >= 4.5 ? '<span class="top-rated">Top Rated!</span>' : ''}
           <button class="view-more" data-name="${drink.name}" data-description="${drink.description}">View More</button>
         `;
         drinkGrid.appendChild(card);
       });
   
-      // Add modal behavior
       document.querySelectorAll(".view-more").forEach((button) => {
         button.addEventListener("click", (e) => {
+          lastFocusedButton = e.target;
           const name = e.target.dataset.name;
           const description = e.target.dataset.description;
           document.getElementById("modalTitle").textContent = name;
@@ -75,14 +73,22 @@ document.addEventListener("DOMContentLoaded", () => {
       });
     }
   
-    // Modal close logic
     document.getElementById("closeModal").addEventListener("click", () => {
       document.getElementById("modal").style.display = "none";
+      if (lastFocusedButton) lastFocusedButton.focus();
     });
   
     window.addEventListener("click", (e) => {
       if (e.target.id === "modal") {
         document.getElementById("modal").style.display = "none";
+        if (lastFocusedButton) lastFocusedButton.focus();
+      }
+    });
+
+    document.addEventListener("keydown", (e) => {
+      if (e.key === "Escape") {
+        document.getElementById("modal").style.display = "none";
+        if (lastFocusedButton) lastFocusedButton.focus();
       }
     });
   });
